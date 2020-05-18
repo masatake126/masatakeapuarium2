@@ -178,17 +178,6 @@ header {
   padding-top: 60px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .iventinfo {
   text-align: center;
   justify-content: center;
@@ -232,11 +221,11 @@ header {
 
 .A, .B{
   display: flex;
-  }
+  /* display: block; */
+}
 
 .B {
   margin-bottom: 13px;
-  
 }
 
 .iventinfo img {
@@ -258,9 +247,15 @@ header {
 
 
 
+/* @media(max-width:1000px){
+  .A, .B {
+    display: block;
+  }
+}
 
+@media(maxwidth:670px){
 
-
+} */
 
 
 
@@ -269,18 +264,13 @@ header {
 
 
 .fee {
-  position: relative;
-  background-color: rgba(224, 206, 220, 0.411);
+  background-color: rgba(109, 187, 207, 0.411);
 }
 
 .text {
-  position: absolute;
-  top: 0;
-  bottom: 10%;
-  left: 0;
   width: 100%;
-  height: auto;
-  color: rgb(242, 236, 247);
+  height: 800px;
+  color: rgb(92, 124, 212);
   line-height: 30px;
   font-weight: bolder;
   font-weight: bolder;
@@ -291,13 +281,14 @@ header {
   margin-top: 0;
   background: cover;
   width: 100%;
+  height: 400px;
 }
 
 .fee h2 {
-  /* text-decoration: underline; */
-  text-shadow: 3px 3px 1px rgb(224, 125, 58);
+  text-shadow: 3px 3px 1px rgb(219, 194, 178);
   text-align: center;
   font-size: 47px;
+  padding-top: 65px;
 }
 
 .normalfee h3 {
@@ -394,6 +385,7 @@ header {
 
 .floormap {
   background-color: cornflowerblue;
+  padding-bottom: 15px;
 }
 
 .floormap h2 {
@@ -404,36 +396,122 @@ header {
 }
 
 .floormap img {
-  margin-left: 8%;
-  width: 45%;
+  margin-left: 10%;
+  width: 30%;
   border-radius: 35px;
   float: left;
-  margin-bottom: 45px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .floormap p {
   color: aliceblue;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 3px;
-  margin-left: 60%;
+  margin-left: 50%;
   margin-right: 30px;
-  margin-top: 90px;
+  margin-top: 80px;
+}
+
+@media (max-width:1000px) {
+  .A, .B {
+    display: block;
+  }
+
+  .floormapinfo {
+    display: flex;
+  }
+
+  .floormap img {
+    margin-left: 8%;
+    width: 35%;
+    border-radius: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .floormap p {
+    color: aliceblue;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 5%;
+  }
+
+  .btn a {
+    box-shadow: 0 4px darkgray;
+    font-size: 15px;
+    padding: 10px 25px;
+    text-align: center;
+    background-color: rgb(233, 142, 38);
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(53, 84, 110);
+    display: block;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
+  .afterclear {
+    clear: both;
+  }
+}
+
+@media(max-width:670px){
+
+  .floormap img {
+    margin-left: 8%;
+    width: 35%;
+    border-radius: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .btn a {
+    box-shadow: 0 4px darkgray;
+    font-size: 15px;
+    padding: 10px 25px;
+    text-align: center;
+    background-color: rgb(233, 142, 38);
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(53, 84, 110);
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
+  .btn a:hover {
+    background-color: rgb(218, 173, 123);
+    transition: all 0.5s;
+    box-shadow: 0 4px darkgray;
+  }
+  
+  .btn a:active{
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+    transition: all 0;
+  }
 }
 
 .btn a {
   box-shadow: 0 4px darkgray;
   font-size: 15px;
-  margin-left: 67%;
-  margin-top: 40px;
+  margin-top: 65px;
   padding: 10px 25px;
-  margin-right: 15%;
-  /* border: 1.5px solid white; */
+  margin-right: 25%;
+  margin-left: 55%;
   text-align: center;
   background-color: rgb(233, 142, 38);
   border-radius: 8px;
   text-decoration: none;
   color: rgb(53, 84, 110);
-  display: block;
+  /* display: block; */
+  margin-bottom: 15px;
 }
 
 .btn a:hover {

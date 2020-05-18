@@ -1,1 +1,176 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
 
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  font-family: monospace;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  background-color: azure;
+  height: 60px;
+  opacity: 0.8;
+}
+
+.icon img {
+  margin-left: 8px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon {
+  display: flex;
+  float: left;
+}
+
+.icon ul {
+  padding-left: 0;
+  margin: 12px 0;
+  line-height: 18px;
+  
+}
+
+.icon li {
+  list-style: none;
+  color: rgb(39, 162, 199);
+  font-size: 16px;
+}
+
+.english {
+  font-size: 11px;
+  margin-left: 5px;
+}
+
+.japanese {
+  margin-left: 6px;
+  -webkit-text-stroke: 0.2px rgb(173, 185, 62);
+}
+
+
+
+.mapcontainer {
+  margin-top: 60px;
+  color: rgb(66, 66, 66);
+}
+
+.floormapimg {
+  width: 74%;
+  margin: 5% 13%;
+}
+
+.maptitle {
+  display: flex;
+  justify-content: center;
+}
+
+.maptitle h2 {
+  font-size: 47px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+.maptitle img {
+  height: 67px;
+}
+
+.mapinfo p {
+  font-size: 17px;
+  letter-spacing: 3px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 10%;
+}
+
+.mapinfo ul {
+  margin-left: 10%;
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: azure;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+footer img {
+  width: 70px;
+  height: 70px;
+  margin-left: 3%;
+}
+
+.footericon {
+  display: flex;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.footericon li {
+  list-style: none;
+  color: rgb(39, 162, 199);
+}
+
+.footericon ul {
+  padding: 0;
+}
+
+.sns {
+  float: right;
+  margin-right: 3%;
+  height: 96px;
+}
+
+.sns ul {
+  margin: 21px 0;
+
+}
+
+.sns li {
+  list-style: none;
+}
+
+.sns a {
+  text-decoration: none;
+  font-size: 11px;
+  color: rgb(46, 177, 253);
+}
+
+.sns a:hover {
+  color: blue;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}

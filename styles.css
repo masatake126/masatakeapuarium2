@@ -468,7 +468,7 @@ header {
   }
 }
 
-@media(max-width:670px){
+@media (max-width:670px) {
 
   .afterclear {
     clear: both;

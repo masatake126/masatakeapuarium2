@@ -423,16 +423,6 @@ header {
     padding-left: 5%;
     line-height: 12px;
   }
-  
-  .info ul {
-    display: flex;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
-    box-sizing: border-box;
-    padding-left: 5%;
-    line-height: 12px;
-  }
 
   .A, .B {
     display: block;
